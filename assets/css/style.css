@@ -8,7 +8,21 @@ h1 {
 	   font-style: italic;
 	   font-size: 45px;
 	}
+
+	#container {
+		font-size: 35px;
+		color: red;
+	}
+
+	#pageheader {
+		text-align: center;
+	}
+
 	#spacebox {
 		
 		border: 10px, 10px; color: red; 
+	}
+
+	#lettersused {
+		text-align: center;
 	}

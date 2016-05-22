@@ -53,7 +53,7 @@ $(document).ready(function() {
       } 
     };
     
-    if( beforeUserGuess === targetWordArray) {
+    if(beforeUserGuess === targetWordArray) {
     	console.log('if wrong guess');
     	numberOfGuesses = numberOfGuesses - 1;
     	console.log('numberOfGuesses is ' + numberOfGuesses);
@@ -112,10 +112,11 @@ $(document).ready(function() {
   for (var i = 0; i < guesses.length; i++) {
     if (counter + space == guesses.length) {
       shownumberOfGuesses.innerHTML = "You Win!";
-      //this function will tally wins for user 
     }
   };
   comments();
   }
+
+  //need function that keeps track of wins and losses
   return;
 }); //end document ready function
